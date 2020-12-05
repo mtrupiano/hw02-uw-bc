@@ -7,4 +7,36 @@
 
 body {
     background-color: var(--lightpurple-custom);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: var(--purple-custom);
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: var(--gold-custom)
+}
+
+.navbar-brand {
+    font-size: 22pt;
+}
+
+.nav-item a:hover {
+    background-color: var(--lightpurple-custom);
+}
+
+#navbar-logo {
+    margin-right: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: var(--purple-custom);
+    border-top: solid;
+    border-width: 3px;
+    border-color: var(--gold-custom);
 }

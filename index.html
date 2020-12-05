@@ -6,40 +6,53 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
 
         <link rel="icon" type="image/png" href="https://pcc.uw.edu/wp-content/themes/coenv-pcc/assets/img/icons/logo-1200x1200.png">
+
     </head>
     <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img id="navbar-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/University_of_Washington_Block_W_logo_RGB_brand_colors.SVG/1200px-University_of_Washington_Block_W_logo_RGB_brand_colors.SVG.png" width="60" height="40" class="d-inline-block align-top" alt="UW Logo">
+                    Mark Trupiano
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" id="navId">
-            <li class="nav-item">
-                <a href="#tab1Id" class="nav-link active" data-toggle="tab" role="tab" aria-controls="home" aria-selected="true">Active</a>
-            </li>
-            <li class="nav-item">
-                <a href="#tab2Id" class="nav-link" data-toggle="tab" role="tab" aria-controls="tab2" aria-selected="false">Action</a>
-            </li>
-            <li class="nav-item">
-                <a href="#tab5Id" class="nav-link" data-toggle="tab" role="tab" aria-controls="tab3" aria-selected="false">Another link</a>
-            </li>
-        </ul>
-        
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab2Id" role="tabpanel" aria-labelledby="tab2">
-                <h2>YO</h2>
+                <div class="navbar-collapse collapse show" id="navbarCollapse" style>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item rounded active">
+                            <a href="#" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item rounded">
+                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">Copyright</span>
             </div>
-            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-        </div>
+        </footer>
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     </body>
 </html>     
