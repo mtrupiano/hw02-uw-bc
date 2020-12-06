@@ -10,7 +10,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+
+h1 {
+    margin-bottom: 0;
+} 
+
+p {
+    line-height: 150%;
+    font-size: 16pt;
+}
+
+hr {
+    border:solid;
+    border-color: var(--purple-custom);
+    border-width: 2px;
+    margin-top: 2px;
+}
+
 .navbar {
+    /* min-height: 100px; */
     background-color: var(--purple-custom);
     border-bottom: solid;
     border-width: 3px;
@@ -23,20 +45,42 @@ body {
 
 .nav-item a:hover {
     background-color: var(--lightpurple-custom);
+    color: var(--purple-custom);
+}
+
+.content {
+    margin-top: 5px;
 }
 
 #navbar-logo {
     margin-right: 10px;
 }
 
+#headshot {
+    margin: 7px 25px 10px 0;
+    width: 300px;
+    min-width: 30%;
+}
+
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     height: 60px;
     line-height: 60px;
+    width: 100%;
     background-color: var(--purple-custom);
     border-top: solid;
     border-width: 3px;
     border-color: var(--gold-custom);
+}
+
+/* Muted text color for footer */
+#footer-text {
+    color: #e8ddfd8a;
+}
+
+/* Center the headshot image when viewport width under 500px */
+@media only screen and (max-width: 500px) {
+    #headshot {
+        margin-left: calc(50% - 150px);
+        margin-right: calc(50% - 150px);
+    }
 }
