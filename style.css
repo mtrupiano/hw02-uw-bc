@@ -37,6 +37,7 @@ hr {
 }
 
 .navbar {
+    color: var(--lightpurple-custom);
     background-color: var(--purple-custom);
     border-bottom: solid;
     border-width: 3px;
@@ -51,6 +52,7 @@ hr {
     background-color: var(--lightpurple-custom);
 }
 
+/* Adds margin b/w main page content and page header */
 .content {
     margin-top: 5px;
 }
@@ -83,10 +85,7 @@ hr {
     border-color: var(--gold-custom);
 }
 
-#wordmark {
-    color: var(--lightpurple-custom);
-}
-
+/* Default size of the navbar-brand logo image */
 #navbar-logo {
     height: 70px;
     width: 105px;
@@ -105,12 +104,14 @@ hr {
     }
 }
 
+/* Remove right margin on brand logo when main wordmark moves to center */
 @media only screen and (max-width: 767px) {
     .navbar-brand {
         margin-right: 0;
     }
 }
 
+/* Centers headshot, decreases navbar logo size, decreases wordmark font size when below certain width */
 @media only screen and (max-width: 500px) {
     #headshot {
         margin-left: calc(50% - 150px);
