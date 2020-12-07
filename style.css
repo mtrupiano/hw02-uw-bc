@@ -44,6 +44,7 @@ hr {
     border-color: var(--gold-custom);
 }
 
+/* Increase the height of the nav bar */
 .navbar-brand {
     height: 100px;
 }
@@ -57,18 +58,22 @@ hr {
     margin-top: 5px;
 }
 
-.btn-lg {
+/* Style for nav buttons */
+.nav-item .btn-lg {
     color: var(--lightpurple-custom);
     text-align: center;
+    font-size: 20pt;
     padding-left: 20px!important;
     padding-right: 20px!important;
 }
 
-.btn-lg:hover {
+/* Invert button colors on hover */
+.nav-item .btn-lg:hover {
     background-color: var(--lightpurple-custom) !important;
     color: var(--purple-custom) !important;
 }
 
+/* Size and margin for headshot image */
 #headshot {
     margin: 7px 25px 10px 0;
     width: 300px;
