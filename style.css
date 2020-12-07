@@ -5,6 +5,10 @@
     --purple-custom: #4B2E83;
 }
 
+html {
+    min-width: 360px;
+}
+
 body {
     background-color: var(--lightpurple-custom);
     font-family: 'Roboto', sans-serif;
@@ -33,15 +37,13 @@ hr {
 }
 
 .navbar {
-    /* min-height: 100px; */
     background-color: var(--purple-custom);
     border-bottom: solid;
     border-width: 3px;
-    border-color: var(--gold-custom)
+    border-color: var(--gold-custom);
 }
 
 .navbar-brand {
-    /* margin-top: 10px; */
     height: 100px;
 }
 
@@ -65,10 +67,6 @@ hr {
     color: var(--purple-custom) !important;
 }
 
-#navbar-logo {
-    margin-right: 10px;
-}
-
 #headshot {
     margin: 7px 25px 10px 0;
     width: 300px;
@@ -89,15 +87,43 @@ hr {
     color: var(--lightpurple-custom);
 }
 
+#navbar-logo {
+    height: 70px;
+    width: 105px;
+    margin-top: 10px;
+}
+
 /* Muted text color for footer */
 #footer-text {
     color: #e8ddfd8a;
 }
 
 /* Center the headshot image when viewport width under 500px */
+@media only screen and (max-width: 900px) {
+    #wordmark {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     #headshot {
         margin-left: calc(50% - 150px);
         margin-right: calc(50% - 150px);
+    }
+
+    #navbar-logo {
+        height: 50px;
+        width: 75px;
+        margin-top: 20px;
+    }
+
+    #wordmark {
+        font-size: 21pt;
     }
 }
