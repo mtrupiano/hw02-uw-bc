@@ -123,6 +123,34 @@ img {
     font-weight: 800;
 }
 
+#contact-content {
+    font-family: "Encode Sans", sans-serif;
+}
+
+#contact-content textarea {
+    min-height: 38px;
+}
+
+#contact-content .list-group-item {
+    background-color: #ede4ffb0;
+}
+
+#contact-content .btn {
+    color: var(--lightpurple-custom);
+    background-color: var(--purple-custom);
+    font-size: 18pt;
+}
+
+#contact-content a {
+    color: var(--purple-custom);
+    font-size: 18pt;
+}
+
+#contact-content a:visited {
+    color: var(--gold-custom);
+}
+
+
 /* Center the headshot image when viewport width under 992px */
 @media only screen and (max-width: 1055px) {
     #wordmark {
