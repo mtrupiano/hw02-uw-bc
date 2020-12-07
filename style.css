@@ -47,6 +47,7 @@ img {
 .portfolio-separator {
     border-width: 1px;
     border-radius: 1px;
+    margin-top: 16px;
     border-color: #6942b6c5;
 }
 
