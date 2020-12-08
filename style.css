@@ -73,6 +73,10 @@ img {
     margin-right: 5px;
 }
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(75, 46, 131, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>")!important;
+}
+
 /* Adds margin b/w main page content and page header */
 .content {
     margin-top: 5px;
@@ -127,6 +131,7 @@ img {
 
 #wordmark {
     font-weight: 800;
+    color: rgb(245, 235, 235);
 }
 
 #contact-content {
@@ -168,6 +173,10 @@ img {
 @media only screen and (max-width: 767px) {
     .navbar-brand {
         margin-right: 0;
+    }
+
+    #contact-content #check-me-out {
+        margin-top: 10px;
     }
 }
 
