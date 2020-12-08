@@ -65,7 +65,8 @@ img {
 }
 
 .navbar-toggler {
-    background-color: var(--lightpurple-custom);
+    background-color: var(--gold-custom);
+    color: var(--purple-custom)
 }
 
 /* Adds margin b/w main page content and page header */
@@ -89,13 +90,7 @@ img {
     color: var(--purple-custom) !important;
 }
 
-/* Size and margin for headshot image */
-#headshot {
-    margin: 7px 25px 10px 0;
-    width: 300px;
-    min-width: 30%;
-}
-
+/* Styling for the footer */
 .footer {
     height: 60px;
     line-height: 60px;
@@ -104,6 +99,13 @@ img {
     border-top: solid;
     border-width: 3px;
     border-color: var(--gold-custom);
+}
+
+/* Size and margin for headshot image */
+#headshot {
+    margin: 7px 25px 10px 0;
+    width: 300px;
+    min-width: 30%;
 }
 
 /* Default size of the navbar-brand logo image */
