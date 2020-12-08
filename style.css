@@ -38,17 +38,19 @@ hr {
     border-width: 2px;
     border-radius: 20px;
     margin-top: 2px;
+    color: var(--purple-custom);
 }
 
 img {
     margin: 5px 5px;
 }
 
-.portfolio-separator {
+.separator {
     border-width: 1px;
     border-radius: 1px;
     margin-top: 16px;
     border-color: #6942b6c5;
+    color: #6942b6c5;
 }
 
 .navbar {
@@ -66,7 +68,6 @@ img {
 
 .navbar-toggler {
     background-color: var(--gold-custom);
-    color: var(--purple-custom)
 }
 
 /* Adds margin b/w main page content and page header */
