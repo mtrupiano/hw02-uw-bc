@@ -5,6 +5,23 @@
     --purple-custom: #4B2E83;
 }
 
+/* Custom font face declaration for Uni Sans Book */
+@font-face {
+    font-family: 'Uni Sans Book';
+    src: url('/resources/UniSansBook.eot');
+    src: url('/resources/UniSansBook.eot?#iefix') format('embedded-opentype'),
+        url('/resources/UniSansBook.woff2') format('woff2'),
+        url('/resources/UniSansBook.woff') format('woff'),
+        url('/resources/UniSansBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 
+    Specify the minimum width that the page will be responive to
+    (i.e. elements will stop adjusting size/position when viewport reaches this value)
+*/
 html {
     min-width: 340px;
 }
@@ -29,9 +46,10 @@ h1 {
 p {
     line-height: 150%;
     font-size: 16pt;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Uni Sans Book', sans-serif;
 }
 
+/* Size and coloring for hr elements */
 hr {
     border:solid;
     border-color: var(--purple-custom);
@@ -42,6 +60,7 @@ hr {
     background-color: var(--purple-custom);
 }
 
+/* Margin for images */
 img {
     margin: 5px 5px;
 }
