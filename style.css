@@ -39,6 +39,7 @@ hr {
     border-radius: 20px;
     margin-top: 2px;
     color: var(--purple-custom);
+    background-color: var(--purple-custom);
 }
 
 img {
@@ -51,6 +52,7 @@ img {
     margin-top: 16px;
     border-color: #6942b6c5;
     color: #6942b6c5;
+    background-color: #6942b6c5;
 }
 
 .navbar {
