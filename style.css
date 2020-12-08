@@ -70,6 +70,7 @@ img {
 
 .navbar-toggler {
     background-color: var(--gold-custom);
+    margin-right: 5px;
 }
 
 /* Adds margin b/w main page content and page header */
