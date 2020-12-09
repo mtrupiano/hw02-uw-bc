@@ -204,7 +204,7 @@ img {
 }
 
 /* Remove right margin on brand logo when main wordmark moves to center */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
     .navbar-brand {
         margin-right: 0;
     }
@@ -215,9 +215,9 @@ img {
 }
 
 /* Decrease screen edge padding and navbar logo size for small screens */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
     .navbar {
-        padding-left: 3px;
+        padding-left: 0;
         padding-right: 3px;
     }
 
