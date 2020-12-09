@@ -211,10 +211,6 @@ img {
         padding-right: 3px;
     }
 
-    #wordmark {
-        font-size: 16pt;
-    }
-
     #navbar-logo {
         height: 50px;
         width: 75px;
@@ -222,10 +218,16 @@ img {
     }
 }
 
-/* Centers headshot, decreases navbar logo size, decreases wordmark font size when below certain width */
+/* Centers headshot, decreases wordmark font size to prevent element wrapping */
 @media only screen and (max-width: 500px) {
+
+    #wordmark {
+        font-size: 17pt;
+    }
+
     #headshot {
         margin-left: calc(50% - 150px);
         margin-right: calc(50% - 150px);
     }
+
 }
