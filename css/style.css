@@ -26,23 +26,27 @@ html {
     min-width: 340px;
 }
 
+/* Default background color and default font for page bodies */
 body {
-    background-color: var(--lightpurple-custom);
     font-family: 'Encode Sans Condensed', sans-serif;
+    background-color: var(--lightpurple-custom);
 }
 
+/* Margin and text color for all 'main' elements */
 main {
     margin-top: 25px;
     margin-bottom: 150px;
     color: var(--purple-custom);
 }
 
+/* Font and margin for h1 elements */
 h1 {
     margin-bottom: 0;
     font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
 } 
 
+/* Font for p elements */
 p {
     line-height: 150%;
     font-size: 16pt;
@@ -74,6 +78,7 @@ img {
     background-color: #6942b6c5;
 }
 
+/* Colors and border for the navbar */
 .navbar {
     color: var(--lightpurple-custom);
     background-color: var(--purple-custom);
@@ -88,11 +93,13 @@ img {
     height: 100px;
 }
 
+/* Background color and margin for the toggler button */
 .navbar-toggler {
     background-color: var(--gold-custom);
     margin-right: 5px;
 }
 
+/* Use a custom link for the hamburger icon to change the color */
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(75, 46, 131, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>")!important;
 }
@@ -149,15 +156,18 @@ img {
     color: #e8ddfd8a;
 }
 
+/* Font and color for wordmark */
 #wordmark {
     font-family: 'Cinzel', serif;
     color: rgb(245, 235, 235);
 }
 
+/* Font for the contact page content */
 #contact-content {
     font-family: "Encode Sans", sans-serif;
 }
 
+/* More custom style for the contact page content */
 #contact-content h3 {
     font-weight: bold;
     margin-bottom: 30px;
@@ -186,8 +196,7 @@ img {
     color: var(--gold-custom);
 }
 
-
-/* Center the headshot image when viewport width under 992px */
+/* Decrease the wordmark font size to prevent element wrapping */
 @media only screen and (max-width: 1055px) {
     #wordmark {
         font-size: 2.25rem;
@@ -205,7 +214,7 @@ img {
     }
 }
 
-/*  */
+/* Decrease screen edge padding and navbar logo size for small screens */
 @media only screen and (max-width: 576px) {
     .navbar {
         padding-left: 3px;
