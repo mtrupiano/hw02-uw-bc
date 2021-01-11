@@ -137,7 +137,9 @@ img {
 }
 
 .portfolio-entry {
+    border-radius: 5px;
     padding: 0;
+    align-items: center;
 }
 
 /* Size and margin for headshot image */
@@ -211,6 +213,10 @@ img {
 @media only screen and (max-width: 767.98px) {
     .navbar-brand {
         margin-right: 0;
+    }
+
+    .portfolio-entry {
+        margin-bottom: 2px;
     }
 
     #contact-content #check-me-out {
