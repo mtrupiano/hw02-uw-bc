@@ -136,6 +136,10 @@ img {
     border-color: var(--gold-custom);
 }
 
+.portfolio-entry {
+    padding: 0;
+}
+
 /* Size and margin for headshot image */
 #headshot {
     margin: 7px 25px 10px 0;
