@@ -136,12 +136,6 @@ img {
     border-color: var(--gold-custom);
 }
 
-.portfolio-entry {
-    border-radius: 5px;
-    padding: 0;
-    align-items: center;
-}
-
 /* Size and margin for headshot image */
 #headshot {
     margin: 7px 25px 10px 0;
@@ -202,19 +196,6 @@ img {
     color: var(--gold-custom);
 }
 
-#webm8-banner {
-    color: #fff;
-    font-size: 42px;
-    font-family: 'Maven Pro', sans-serif;
-    background-color: #ee6e73; 
-    width: 210px; 
-    height: 210px;
-}
-
-#webm8-banner:hover {
-    text-decoration: none;
-}
-
 /* Decrease the wordmark font size to prevent element wrapping */
 @media only screen and (max-width: 1055px) {
     #wordmark {
@@ -226,10 +207,6 @@ img {
 @media only screen and (max-width: 767.98px) {
     .navbar-brand {
         margin-right: 0;
-    }
-
-    .portfolio-entry {
-        margin-bottom: 2px;
     }
 
     #contact-content #check-me-out {
